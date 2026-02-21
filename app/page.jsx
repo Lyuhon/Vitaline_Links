@@ -146,7 +146,7 @@ export default function Home() {
 
   const contacts = [
     { name: "Kamila", role: "Director", email: "kamila@vitaline.uz" },
-    { name: "abdelmansur", role: "CEO", email: "abdelmansur@vitaline.uz" }
+    { name: "Abdelmansur", role: "CEO", email: "abdelmansur@vitaline.uz" }
   ];
 
   const WhatsAppIcon = () => (
@@ -171,7 +171,7 @@ export default function Home() {
       <div className="w-full max-w-sm relative z-10">
 
         {/* Header */}
-        <div className="text-center mb-6">
+        <div className="text-center mb-6 mt-2">
           <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden shadow-xl ring-4 ring-white bg-white">
             <Image
               src="/vitaline-favi.png"
